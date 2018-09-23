@@ -49,7 +49,7 @@ end
 
 % Function for generating a full frame
 
-function tx = gen_frame(cfg, fp, modsymbs, pilots)
+function tx = gen_frame(bwps, cfg, fp, modsymbs, pilots)
 
 	disp("Frame generation"); 
 
